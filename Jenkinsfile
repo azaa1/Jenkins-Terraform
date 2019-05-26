@@ -10,14 +10,12 @@ pipeline {
 
     stage("Run pwd"){
       steps{
-        sh "cd ${workspace}"
         sh "pwd"
       }
     }
 
     stage("Run whoami"){
       steps{
-        sh "cd ${workspace}"
         sh "whoami"
       }
     }
