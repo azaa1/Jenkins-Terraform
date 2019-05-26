@@ -46,7 +46,6 @@ pipeline {
                 currentBuild.result = 'FAILURE'
             }
         }
-      }
     }
   }
 }
