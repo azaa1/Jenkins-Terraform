@@ -21,7 +21,7 @@ pipeline {
       }
     }
 
-    stage("Take User Input"){
+
         def userInput
         try {
             userInput = input(
@@ -46,6 +46,5 @@ pipeline {
                 currentBuild.result = 'FAILURE'
             }
         }
-    }
   }
 }
