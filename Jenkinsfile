@@ -22,7 +22,6 @@ pipeline {
     }
 
     stage("Take User Input"){
-      steps{
         def userInput
         try {
             userInput = input(
